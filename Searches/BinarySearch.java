@@ -12,13 +12,15 @@ package algorithms.searches;
 public class BinarySearch {
 
     static void binarySearch(int arr[], int x) {
-
-        int begin = arr[0];
+        // A) BEGIN
+        int begin = arr[0];                             
+        // B) END
         int last = arr[arr.length - 1];
         int mid = 0;
 
         while (x != mid) {
-            mid = begin + (last - begin) / 2;
+            // C) find a MIDDLE
+            mid = begin + (last - begin) / 2;           
             if (x < mid) {
                 last = mid - 1;
             } else if (x > mid) {
