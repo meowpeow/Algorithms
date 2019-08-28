@@ -58,7 +58,7 @@ public class LinkedListTest2 {
 
 //        define constructor
         LinkedList ll1 = new LinkedList();
-//        define method we  implement
+//        define methods we implemented
         ll1.append(1);
         ll1.append(2);
         ll1.append(3);
